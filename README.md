@@ -1,6 +1,8 @@
-# vsdconfigtool is a tools to Reverse the .vsconfig file in Visual Studio Remote Debugger
+# What is vsdconfigtool 
 
-## what is features provided?
+vsdconfigtool is a tools to Reverse the .vsconfig file in Visual Studio Remote Debugger
+
+## What is features provided?
 
 By using the tool I provided (https://github.com/c0mpi1ors/RemoteDebuggerMate), I can find out what SOAP between Visual Studio and Remote Debugger Tools.
 
