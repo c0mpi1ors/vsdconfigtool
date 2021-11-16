@@ -3,11 +3,15 @@
 ## what is features provided?
 
 By using the tool I provided (https://github.com/c0mpi1ors/RemoteDebuggerMate), I can find out what SOAP between Visual Studio and Remote Debugger Tools.
+
 ![SOAP](soap.png)
-The <Content> in the <ConfigFile> is a binary .vsconfig file that provided by Visual Studio and we can find it same as a file (Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Remote Debugger\x64\GpuEnvSetup.vsdconfig).
+
+The `<Content>` in the `<ConfigFile>` is a binary .vsconfig file that provided by Visual Studio and we can find it same as a file (`Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Remote Debugger\x64\GpuEnvSetup.vsdconfig`).
 Microsoft already provided the vsdconfigtool.exe to generate vsconfig file from vsconfigxml file. 
 so I provide this vsdconfigtool.exe with the feature that get vsdconfigxml file back from vsdconfig file.
+
 ![Help](help.png)
+
 The generated vsdconfigxml file will be like: 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
