@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/vstudio/vsdconfig/2008">
+  <NativeComponent ComponentId="c5d8535c-4dfe-42c7-a65f-301163c92a11" ComponentLevel="0" ModuleName="GpuEnvSetup.dll">
+    <Class Name="GpuEnvSetup.CGpuEnvSetup" ClassId="3d4276bf-b2ee-4a1f-b788-0e1edb47d4a6">
+      <Implements>
+        <InterfaceGroup>
+          <Interface Name="IDkmProcessLaunchEnvironmentFilter" />
+        </InterfaceGroup>
+      </Implements>
+    </Class>
+  </NativeComponent>
+</Configuration>
